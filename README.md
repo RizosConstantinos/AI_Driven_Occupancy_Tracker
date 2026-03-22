@@ -21,7 +21,7 @@ An end-to-end AI-powered system for real-time human detection and occupancy trac
 
 | **Entry Monitoring (Frame Breakdown)** | **System Architecture & Logic** |
 | :--- | :--- |
-| <img src="https://raw.githubusercontent.com/RizosConstantinos/AI_Identification_System/main/images/Screenshot%20(127).jpg" width="400" alt="Frame Breakdown"> | <img src="https://raw.githubusercontent.com/RizosConstantinos/AI_Identification_System/main/images/diagr.png" width="400" alt="Architectural Diagram"> |
+| <img src="https://github.com/RizosConstantinos/AI_Identification_System/blob/main/images/Screenshot%20(127).png" width="400" alt="Frame Breakdown"> | <img src="https://raw.githubusercontent.com/RizosConstantinos/AI_Identification_System/main/images/diagr.png" width="400" alt="Architectural Diagram"> |
 | *Visualizing the multi-stage frame processing pipeline, from camera input to detection and classification.* | *The overall system diagram illustrating the data flow from frame capture to final count. (as seen in image_2.png)* |
 
 ---
