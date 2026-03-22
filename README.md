@@ -24,7 +24,7 @@ The system processes each frame to detect human figures and assign unique tracki
 
 | **Initial Frame Detection** | **Unique ID Assignment** |
 | :--- | :--- |
-| ![Frame Detection](https://github.com/RizosConstantinos/AI_Identification_System/blob/main/images/Screenshot%20(127).png) | ![ID Tracking](images/Screenshot%20(122).jpg) |
+| ![Frame Detection](https://github.com/RizosConstantinos/AI_Identification_System/blob/main/images/Screenshot%20(127).png) | ![ID Tracking](https://github.com/RizosConstantinos/AI_Identification_System/blob/main/images/Screenshot%20(122).png) |
 | *Step 1: Analyzing the input stream for human features using Deep Learning.* | *Step 2: Assigning persistent IDs to track movement across the scene.* |
 
 ---
@@ -34,7 +34,7 @@ By monitoring the displacement of centroids relative to a virtual boundary, the 
 
 | **Directional Monitoring** | **Live Occupancy Status** |
 | :--- | :--- |
-| ![In-Out Monitoring](images/Screenshot%20(120).jpg) | ![Final Status](images/Screenshot%20(54).jpg) |
+| ![In-Out Monitoring](https://github.com/RizosConstantinos/AI_Identification_System/blob/main/images/Screenshot%20(120).png) | ![Final Status](https://github.com/RizosConstantinos/AI_Identification_System/blob/main/images/Screenshot%20(54).png) |
 | *Step 3: Calculating directional vectors to update entrance and exit counters.* | *Step 4: Providing a real-time 'Grand Total' for building occupancy management.* |
 
 
