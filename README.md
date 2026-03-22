@@ -3,6 +3,13 @@
 
 ---
 
+For a more in-depth understanding of the theoretical background, mathematical models, and experimental results of this system, you can access the following resources:
+
+* **[Full Diploma Thesis (PDF)](https://github.com/RizosConstantinos/AI_Driven_Occupancy_Tracker_System/blob/main/docs/AI_Identification_System.pdf)**: A comprehensive 110+ pages analysis covering Deep Learning architectures, tracking algorithms, and performance evaluation.
+* **[Project Presentation (PPTX)](https://github.com/RizosConstantinos/AI_Driven_Occupancy_Tracker_System/blob/main/docs/Final_Presentation.pdf)**: A concise slide summary used for the final thesis defense at the Hellenic Air Force Academy.
+
+---
+
 ## Table of Contents
 * [Overview](#overview)
 * [Core AI Concepts & Technologies](#core-ai-concepts--technologies)
