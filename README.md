@@ -38,24 +38,23 @@ By monitoring the displacement of centroids relative to a virtual boundary, the 
 
 ---
 
-## 📐 Architecture & System Logic
+## Architecture & System Logic
 
 To ensure high accuracy and data consistency, the system follows a structured pipeline. Below is the architectural flowchart and the resulting real-time monitoring interface.
 
-### 1. System Flowchart
+### System Flowchart
 This diagram illustrates the logic from the initial video capture to the final decision-making process for counting and occupancy tracking.
 
-![System Architecture](images/diagr.png)
-*Flowchart: Representing the data processing layers, including Preprocessing, Object Detection, and Centroid Tracking logic.*
-
-
-### 2. Real-Time Occupancy Interface
-These screenshots showcase the "Grand Total" logic in action, where the system synchronizes entries and exits to maintain an accurate count of people currently in the area.
-
-| **Entrance & Exit Monitoring** | **Total Area Occupancy** |
+| **Flow Diagram** | **Logic** |
 | :--- | :--- |
-| ![In-Out Counter](images/Screenshot%20(51).png) | ![Grand Total Status](images/Screenshot%20(53).jpg) |
-| *Live counters for In/Out events based on directional vectors.* | *The 'Grand Total' metric, providing critical data for facility management.* |
+| ![Flow Diagram](https://github.com/RizosConstantinos/AI_Identification_System/blob/main/images/Screenshot%20(51).png) | ![Logic](https://github.com/RizosConstantinos/AI_Identification_System/blob/main/images/diagr.png) |
+
+### Hardware System and Programming
+
+| **Rasberry Pi - Programming** | **Final System** |
+| :--- | :--- |
+| ![Rasberry Pi - Programming](https://github.com/RizosConstantinos/AI_Identification_System/blob/main/images/Screenshot%20(52).png) | ![Final System](https://github.com/RizosConstantinos/AI_Identification_System/blob/main/images/Screenshot%20(53).png) |
+
 
 ---
 
@@ -65,7 +64,7 @@ A clean and modular directory structure is maintained to ensure scalability and 
 
 | **Repository Filesystem** | **Directory Breakdown** |
 | :--- | :--- |
-| ![Folder Structure](images/Screenshot%20(55).png) | **- `models/`**: Pre-trained Deep Learning weights and configurations.<br>**- `images/`**: Project documentation assets and showcase visual data.<br>**- `src/`**: Core Python implementation and tracking logic.<br>**- `docs/`**: Full Diploma Thesis documentation (PDF). |
+| ![Folder Structure](https://github.com/RizosConstantinos/AI_Identification_System/blob/main/images/Screenshot%20(55).png) | **- `models/`**: Pre-trained Deep Learning weights and configurations.<br>**- `images/`**: Project documentation assets and showcase visual data.<br>**- `src/`**: Core Python implementation and tracking logic.<br>**- `docs/`**: Full Diploma Thesis documentation (PDF). |
 
 ### File Descriptions:
 * **`main.py`**: The entry point of the application.
